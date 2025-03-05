@@ -9,3 +9,7 @@ runoff_stations[, lon := round(lon, 3)]
 runoff_stations[, altitude := round(altitude, 0)]
 
 saveRDS(runoff_stations, './data/runoff_stations_raw.rds')
+
+saveRDS(runoff_stations, "./data//runoff_stations_raw.rds")
+
+
